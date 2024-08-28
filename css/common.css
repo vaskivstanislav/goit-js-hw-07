@@ -1,0 +1,138 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+
+}
+
+body {
+  margin: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  color: #212121;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1160px;
+ padding: 0 16px;
+ margin: 0 auto;
+  background-color: red;
+}
+h2 {
+  margin: 0;
+
+}
+
+/* #categories {
+  padding: 24px;
+} */
+.item {
+  background-color: #F6F6FE;
+  border-radius: 8px;
+  padding: 16px;
+  
+}
+/* .item:not(:last-child) {
+  margin-bottom: 24px;
+} */
+
+.item li {
+  max-width: 360px;
+height: 40px;
+border-radius: 4px;
+border: 1px solid #212121;
+padding: 8px 16px;
+
+}
+.item li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+
+.img-item {
+  max-width: 360px;
+  flex-basis:calc((100% - 48px) / 3);
+}
+/* //task 6 */
+/* #controls {
+  display: flex;
+  flex-direction: row;
+} */
+.square {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-color: rgb(246, 127, 255);
+  margin: 10px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+/* Input number styling */
+.input-number {
+  width: 150px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+/* Button styling */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: white;
+}
+
+/* Create button specific styles */
+.btn-create {
+  background-color: #007bff;
+}
+
+.btn-create:hover {
+  background-color: #0056b3;
+}
+
+/* Destroy button specific styles */
+.btn-destroy {
+  background-color: #dc3545;
+}
+
+.btn-destroy:hover {
+  background-color: #c82333;
+}
+
+/* Boxes container */
+.boxes {
+  display: flex;
+  gap: 10px;
+}
+
