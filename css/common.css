@@ -6,7 +6,8 @@ img {
   display: block;
   max-width: 100%;
   object-fit: cover;
-
+  width: 360px;
+  height: 300px;
 }
 
 body {
@@ -31,18 +32,12 @@ h2 {
 
 }
 
-/* #categories {
-  padding: 24px;
-} */
 .item {
   background-color: #F6F6FE;
   border-radius: 8px;
   padding: 16px;
   
 }
-/* .item:not(:last-child) {
-  margin-bottom: 24px;
-} */
 
 .item li {
   max-width: 360px;
@@ -72,18 +67,6 @@ ul, li {
   max-width: 360px;
   flex-basis:calc((100% - 48px) / 3);
 }
-/* //task 6 */
-/* #controls {
-  display: flex;
-  flex-direction: row;
-} */
-.square {
-  display: block;
-  width: 30px;
-  height: 30px;
-  background-color: rgb(246, 127, 255);
-  margin: 10px;
-}
 
 .controls {
   display: flex;
@@ -92,7 +75,6 @@ ul, li {
   margin-bottom: 20px;
 }
 
-/* Input number styling */
 .input-number {
   width: 150px;
   height: 40px;
@@ -102,37 +84,39 @@ ul, li {
   text-align: center;
 }
 
-/* Button styling */
 .btn {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
   color: white;
+  width: 120px;
+  height: 40px;
 }
 
-/* Create button specific styles */
 .btn-create {
-  background-color: #007bff;
+  background-color: #4E75FF;
+
 }
 
-.btn-create:hover {
-  background-color: #0056b3;
-}
 
-/* Destroy button specific styles */
 .btn-destroy {
-  background-color: #dc3545;
+  background-color: #FF4E4E;
 }
 
-.btn-destroy:hover {
-  background-color: #c82333;
-}
-
-/* Boxes container */
 .boxes {
   display: flex;
   gap: 10px;
+}
+
+.change-color {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  width: 120px;
+  height: 40px;
+  background-color: #4E75FF;
 }
 
